@@ -3,7 +3,7 @@
   PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
   "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
-<mapper namespace="com.javatpoint">
+<mapper namespace="com.example">
 
     <select id="selectAllBooks" resultType="Book">
         select * from book
